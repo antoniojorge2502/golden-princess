@@ -1,0 +1,134 @@
+:root {
+  /* Dourado (cor principal da marca) */
+  --gp-gold-50: #fbf3df;
+  --gp-gold-100: #f5dba2; /* champanhe */
+  --gp-gold-200: #e6cc80;
+  --gp-gold-300: #e6bf54; /* dourado vivo da coroa */
+  --gp-gold-400: #cab16c;
+  --gp-gold-500: #b8a356; /* dourado base do logo */
+  --gp-gold-600: #b2913c; /* ouro velho */
+  --gp-gold-700: #9e8132;
+  --gp-gold-800: #946c33; /* bronze */
+  --gp-gold-900: #5a4322;
+
+  /* Neutros quentes (fundos) */
+  --gp-white: #ffffff;
+  --gp-ivory: #fffff0;
+  --gp-cream: #f5f0dc;
+  --gp-beige: #ddd8c4; /* fundo dos destaques */
+  --gp-sand: #f0d8a8;
+  --gp-nude: #f0d8c0;
+
+  /* Acentos */
+  --gp-blush: #fff0f0;
+  --gp-rose-gold: #d8a890;
+  --gp-caramel: #ca9b6e;
+  --gp-silver: #c0c0c0;
+
+  /* Texto */
+  --gp-text: #3f2e1a;
+  --gp-text-soft: #5c3f31;
+  --gp-text-muted: #8a7a5c;
+
+  /* Gradientes */
+  --gp-gradient-gold: linear-gradient(
+    135deg,
+    #f5dba2 0%,
+    #e6bf54 40%,
+    #b2913c 75%,
+    #e6cc80 100%
+  );
+  --gp-gradient-soft: linear-gradient(180deg, #fffff0 0%, #f0d8c0 100%);
+
+  /* Aliases semânticos */
+  --gp-primary: var(--gp-gold-500);
+  --gp-primary-hover: var(--gp-gold-600);
+  --gp-accent: var(--gp-gold-300);
+  --gp-bg: var(--gp-ivory);
+  --gp-surface: var(--gp-cream);
+  --gp-border: var(--gp-gold-200);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  height: 100dvh;
+  font-size: 1.6rem;
+  background-color: var(--gp-ivory);
+  font-family: "Montserrat", sans-serif;
+  color: #291f15;
+}
+
+section {
+  padding: 8rem 6rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+button {
+  padding: 0.6rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: none;
+}
+
+#hero {
+  display: flex;
+  gap: 2rem;
+  img {
+    width: 40%;
+  }
+  p {
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 1.4rem;
+  }
+  button {
+    background-color: var(--gp-gold-300);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+  }
+}
+
+#catalogo {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2rem;
+  #container-catalogo {
+    padding: 2rem;
+    display: grid;
+    gap: 3rem;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    .produto {
+      padding: 1rem;
+      background-color: var(--gp-cream);
+      box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+      border-radius: 2px;
+      img {
+        width: 220px;
+      }
+      .produto-meta {
+        display: flex;
+        flex-flow: column;
+        button {
+          background-color: #25d366;
+          color: #fff;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}

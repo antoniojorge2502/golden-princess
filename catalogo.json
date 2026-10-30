@@ -1,0 +1,28 @@
+[
+  {
+    "produto": "produto1",
+    "preco": 99.99,
+    "precoPromocao": null,
+    "promocao": false,
+    "categoria": "categoria1",
+    "img": "/products/IMG-20261022-WA0010.jpg"
+  },
+
+  {
+    "produto": "produto2",
+    "preco": 99.99,
+    "precoPromocao": null,
+    "promocao": false,
+    "categoria": "categoria1",
+    "img": "/products/IMG-20261022-WA0011.jpg"
+  },
+
+  {
+    "produto": "produto3",
+    "preco": 99.99,
+    "precoPromocao": null,
+    "promocao": false,
+    "categoria": "categoria1",
+    "img": "/products/IMG-20261022-WA0012.jpg"
+  }
+]
