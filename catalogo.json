@@ -5,7 +5,7 @@
     "precoPromocao": null,
     "promocao": false,
     "categoria": "categoria1",
-    "img": "/products/IMG-20261022-WA0010.jpg"
+    "img": "/assets/imagens/IMG-20261022-WA0010.jpg"
   },
 
   {
@@ -14,7 +14,7 @@
     "precoPromocao": null,
     "promocao": false,
     "categoria": "categoria1",
-    "img": "/products/IMG-20261022-WA0011.jpg"
+    "img": "/assets/imagens/IMG-20261022-WA0011.jpg"
   },
 
   {
@@ -23,6 +23,6 @@
     "precoPromocao": null,
     "promocao": false,
     "categoria": "categoria1",
-    "img": "/products/IMG-20261022-WA0012.jpg"
+    "img": "/assets/imagens/IMG-20261022-WA0012.jpg"
   }
 ]
