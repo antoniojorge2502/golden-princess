@@ -1,28 +1,35 @@
 [
-  {
-    "produto": "produto1",
-    "preco": 99.99,
-    "precoPromocao": null,
-    "promocao": false,
-    "categoria": "categoria1",
-    "img": "/assets/imagens/IMG-20261022-WA0010.jpg"
-  },
-
-  {
-    "produto": "produto2",
-    "preco": 99.99,
-    "precoPromocao": null,
-    "promocao": false,
-    "categoria": "categoria1",
-    "img": "/assets/imagens/IMG-20261022-WA0011.jpg"
-  },
-
-  {
-    "produto": "produto3",
-    "preco": 99.99,
-    "precoPromocao": null,
-    "promocao": false,
-    "categoria": "categoria1",
-    "img": "/assets/imagens/IMG-20261022-WA0012.jpg"
-  }
+    {
+        "produto": "produto1",
+        "preco": 99.99,
+        "precoPromocao": null,
+        "promocao": false,
+        "categoria": "categoria1",
+        "img": "/assets/imagens/IMG-20261022-WA0010.jpg"
+    },
+    {
+        "produto": "produto2",
+        "preco": 99.99,
+        "precoPromocao": null,
+        "promocao": false,
+        "categoria": "categoria1",
+        "img": "/assets/imagens/IMG-20261022-WA0011.jpg"
+    },
+    {
+        "produto": "produto3",
+        "preco": 99.99,
+        "precoPromocao": null,
+        "promocao": false,
+        "categoria": "categoria1",
+        "img": "/assets/imagens/IMG-20261022-WA0012.jpg"
+    },
+    {
+        "id": "produto-14048db1-52ec-457a-b5b7-777e45a56844",
+        "produto": "produto 4",
+        "preco": 99.99,
+        "precoPromocao": null,
+        "promocao": false,
+        "categoria": "categoria3",
+        "img": "/assets/imagens/7f956fd1-64fe-455c-8770-f1079bb7af9b.jpg"
+    }
 ]
