@@ -21,10 +21,9 @@ async function products() {
             <img src=${element.img} alt="" />
             <div class="produto-meta">
               <h3>${element.produto}</h3>
-              <div>
+              
               <span class="price targe">R$${element.preco}</span>
-              <span class="desconto">R$${element.precoPromocao}</span>
-              </div>
+              <span class="desconto">R$${element.precoPromocao} ${(element.preco - element.precoPromocao) / element.preco}% off</span>
               <button>WhatsApp</button>
             </div>
         </div>`;
