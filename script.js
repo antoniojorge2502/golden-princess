@@ -23,7 +23,7 @@ async function products() {
               <h3>${element.produto}</h3>
               
               <span class="price targe">R$${element.preco}</span>
-              <span class="desconto">R$${element.precoPromocao} ${Math.round(((element.preco - element.precoPromocao) * 100) / element.preco)}% off</span>
+              <span class="desconto"><strong>R$${element.precoPromocao}</strong> ${Math.round(((element.preco - element.precoPromocao) * 100) / element.preco)}% off</span>
               <button>WhatsApp</button>
             </div>
         </div>`;
