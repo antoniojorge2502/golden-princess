@@ -132,3 +132,7 @@ button {
     }
   }
 }
+
+.targe {
+  text-decoration-line: line-through;
+}

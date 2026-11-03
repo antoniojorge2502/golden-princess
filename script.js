@@ -6,8 +6,8 @@ async function products() {
   const data = await json.json();
 
   data.forEach((element) => {
-    console.log(element.produto);
-    containerCatalogo.innerHTML += `<div class="produto">
+    if (!element.promocao) {
+      containerCatalogo.innerHTML += `<div class="produto">
             <img src=${element.img} alt="" />
             <div class="produto-meta">
               <h3>${element.produto}</h3>
@@ -16,6 +16,17 @@ async function products() {
               <button>WhatsApp</button>
             </div>
         </div>`;
+    } else {
+      containerCatalogo.innerHTML += `<div class="produto">
+            <img src=${element.img} alt="" />
+            <div class="produto-meta">
+              <h3>${element.produto}</h3>
+              <span class="price targe">R$${element.preco}</span>
+              <span class="desconto">R$${element.precoPromocao}</span>
+              <button>WhatsApp</button>
+            </div>
+        </div>`;
+    }
   });
 }
 
