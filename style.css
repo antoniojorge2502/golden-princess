@@ -137,3 +137,9 @@ button {
   text-decoration-line: line-through;
   color: #8a7a5ccb;
 }
+
+.deconto {
+  b {
+    font-size: 1.8rem;
+  }
+}
