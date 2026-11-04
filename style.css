@@ -123,6 +123,7 @@ button {
       .produto-meta {
         display: flex;
         flex-flow: column;
+        justify-content: space-between;
         button {
           background-color: #25d366;
           color: #fff;
@@ -142,6 +143,7 @@ button {
   color: #8a7a5ccb;
   font-size: 1.4rem;
   b {
+    color: #291f15;
     font-size: 1.8rem;
   }
 }
