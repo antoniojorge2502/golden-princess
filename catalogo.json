@@ -1,38 +1,38 @@
 [
-    {
-        "id": "produto-f264ce52-4e6a-4e15-b28b-c4a0f6b82313",
-        "produto": "produto 1",
-        "preco": 99.99,
-        "precoPromocao": 79.99,
-        "promocao": true,
-        "categoria": "brinco",
-        "img": "/assets/imagens/875f81d0-b54b-42b9-98b0-631cdc32f4f7.jpg"
-    },
-    {
-        "id": "produto-68ab8667-99ab-411d-a8a7-068b20a9776e",
-        "produto": "produto 2",
-        "preco": 99.99,
-        "precoPromocao": null,
-        "promocao": false,
-        "categoria": "brinco",
-        "img": "/assets/imagens/380ca408-0c92-49f8-9eab-fb1ba8f315b3.jpg"
-    },
-    {
-        "id": "produto-feeacd36-1918-440e-8ba9-b0306945b64a",
-        "produto": "produto 3",
-        "preco": 99.99,
-        "precoPromocao": null,
-        "promocao": false,
-        "categoria": "brinco",
-        "img": "/assets/imagens/6e8988f7-fe19-4295-9406-ba5772522758.jpg"
-    },
-    {
-        "id": "produto-2039565e-6b62-48b8-8fcf-064549c1641b",
-        "produto": "produto 4",
-        "preco": 99.99,
-        "precoPromocao": null,
-        "promocao": false,
-        "categoria": "brinco",
-        "img": "/assets/imagens/849793ff-7c89-4492-8394-1cb9e8bac4f1.jpg"
-    }
+  {
+    "id": "produto-f264ce52-4e6a-4e15-b28b-c4a0f6b82313",
+    "produto": "produto 1",
+    "preco": 99.99,
+    "precoPromocao": 79.99,
+    "promocao": true,
+    "categoria": "brinco",
+    "img": "/assets/imagens/875f81d0-b54b-42b9-98b0-631cdc32f4f7.jpg"
+  },
+  {
+    "id": "produto-68ab8667-99ab-411d-a8a7-068b20a9776e",
+    "produto": "produto 2",
+    "preco": 99.99,
+    "precoPromocao": null,
+    "promocao": false,
+    "categoria": "brinco",
+    "img": "/assets/imagens/380ca408-0c92-49f8-9eab-fb1ba8f315b3.jpg"
+  },
+  {
+    "id": "produto-feeacd36-1918-440e-8ba9-b0306945b64a",
+    "produto": "produto 3",
+    "preco": 99.99,
+    "precoPromocao": null,
+    "promocao": false,
+    "categoria": "brinco",
+    "img": "/assets/imagens/6e8988f7-fe19-4295-9406-ba5772522758.jpg"
+  },
+  {
+    "id": "produto-2039565e-6b62-48b8-8fcf-064549c1641b",
+    "produto": "produto 4",
+    "preco": 99.99,
+    "precoPromocao": null,
+    "promocao": false,
+    "categoria": "brinco",
+    "img": "/assets/imagens/849793ff-7c89-4492-8394-1cb9e8bac4f1.jpg"
+  }
 ]
