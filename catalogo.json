@@ -34,14 +34,5 @@
     "promocao": false,
     "categoria": "brinco",
     "img": "/assets/imagens/849793ff-7c89-4492-8394-1cb9e8bac4f1.jpg"
-  },
-  {
-    "id": "produto-f3bbd977-a7ea-4bfa-ad09-c958d02b76a3",
-    "produto": "produtoTeste",
-    "preco": 77.77,
-    "precoPromocao": null,
-    "promocao": false,
-    "categoria": "categoria",
-    "img": "/assets/imagens/e2a9bbb3-21ff-41f4-8be5-88f8d63ee14a.jpg"
   }
 ]
