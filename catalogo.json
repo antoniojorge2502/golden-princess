@@ -12,8 +12,8 @@
     "id": "produto-68ab8667-99ab-411d-a8a7-068b20a9776e",
     "produto": "produto 2",
     "preco": 99.99,
-    "precoPromocao": null,
-    "promocao": false,
+    "precoPromocao": 59.99,
+    "promocao": true,
     "categoria": "brinco",
     "img": "/assets/imagens/380ca408-0c92-49f8-9eab-fb1ba8f315b3.jpg"
   },
