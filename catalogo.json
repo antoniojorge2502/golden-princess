@@ -38,7 +38,7 @@
   {
     "id": "produto-1a18d0c2-c75b-4bc0-9d5b-5a54007cd0f1",
     "produto": "produtoTeste",
-    "preco": 200,
+    "preco": 100,
     "precoPromocao": null,
     "promocao": false,
     "categoria": "aaaa",
