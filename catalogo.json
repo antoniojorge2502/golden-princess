@@ -34,5 +34,14 @@
     "promocao": false,
     "categoria": "brinco",
     "img": "/assets/imagens/849793ff-7c89-4492-8394-1cb9e8bac4f1.jpg"
+  },
+  {
+    "id": "produto-51865377-6217-48cf-9a77-3c27fdcf4ab5",
+    "produto": "asasas",
+    "preco": 1,
+    "precoPromocao": null,
+    "promocao": false,
+    "categoria": "aaaaaa",
+    "img": "/assets/imagens/8a00e379-7c0c-4253-a466-2158fe1d5dcb.jpg"
   }
 ]
